@@ -20,7 +20,7 @@
 [Simple SPA](https://www.kirupa.com/react/examples/react_router/index.html#/)
 
 ## Virtual DOM
-<p>Because actual DOM modifications are really slow, you never modify the DOM directly. Instead, you modify an in-memory Virtual DOM. The Virtual DOM is give us a javascript representation of the actual DOM. When changes are made to the view we want to show, we update the Virtual DOM first(Manipulating the Virtual DOM is extremely fast), which then checks the diffs between what was changed to what is currently rendered, and changes ONLY the pieces that need to be changed, rather than re-rendering the entire page.</p>
+<p>Because actual DOM modifications are really slow, you never modify the DOM directly. Instead, you modify an in-memory Virtual DOM. The Virtual DOM gives us a javascript representation of the actual DOM. When changes are made to the view we want to show, we update the Virtual DOM first(Manipulating the Virtual DOM is extremely fast), which then checks the diffs between what was changed to what is currently rendered, and changes ONLY the pieces that need to be changed, rather than re-rendering the entire page.</p>
 
 ![virtual-dom](images/virtual-dom.jpg)
 
